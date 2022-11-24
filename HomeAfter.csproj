@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="+.png" />
+    <None Remove="Mask group.png" />
+    <None Remove="Untitled design %2810%29 1.png" />
+    <None Remove="Untitled design %2813%29 1.png" />
+    <None Remove="Untitled design %2815%29 1.png" />
+    <None Remove="Untitled design %285%29 1.png" />
+    <None Remove="Untitled design %286%29 1.png" />
+    <None Remove="Untitled design %288%29 1.png" />
+    <None Remove="🦆 icon _clock outline_.png" />
+    <None Remove="🦆 icon _more horizontal_.png" />
+    <None Remove="🦆 icon _star outline_.png" />
+    <None Remove="🦆 icon _task_.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="+.png" />
+    <Resource Include="Mask group.png" />
+    <Resource Include="Untitled design (10) 1.png" />
+    <Resource Include="Untitled design (13) 1.png" />
+    <Resource Include="Untitled design (15) 1.png" />
+    <Resource Include="Untitled design (5) 1.png" />
+    <Resource Include="Untitled design (6) 1.png" />
+    <Resource Include="Untitled design (8) 1.png" />
+    <Resource Include="🦆 icon _clock outline_.png" />
+    <Resource Include="🦆 icon _more horizontal_.png" />
+    <Resource Include="🦆 icon _star outline_.png" />
+    <Resource Include="🦆 icon _task_.png" />
+  </ItemGroup>
+
+</Project>

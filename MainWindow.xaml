@@ -1,0 +1,115 @@
+﻿<Window x:Class="HomeAfter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeAfter"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="1280"
+        Width="1280">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="144*" />
+            <ColumnDefinition Width="1136*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0"
+               Grid.Column="1"
+               Source="/🦆 icon _more horizontal_.png"
+               Width="60.569978682431"
+               Margin="1036,0,39,0" />
+
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+            <RowDefinition Height="150*" />
+
+        </Grid.RowDefinitions>
+
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="0" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="1" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="2" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="3" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="4" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="5" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="6" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="7" />
+        <StackPanel Background="#FF2B2E43"
+                    Grid.Row="8" />
+
+
+        <Image Grid.Row="0"
+               Grid.Column="0"
+               Source="/Mask group.png" />
+
+        <Image Grid.Row="1"
+               Grid.Column="0"
+               Source="/Untitled design (13) 1.png"
+               Margin="44,36,45,10" />
+
+        <Image Grid.Row="2"
+               Grid.Column="0"
+               Source="/Untitled design (5) 1.png"
+               Margin="44,36,45,10" />
+
+        <Image Grid.Row="3"
+               Grid.Column="0"
+               Source="/Untitled design (6) 1.png"
+               Margin="44,36,45,10" />
+
+        <Image Grid.Row="4"
+               Grid.Column="0"
+               Source="/Untitled design (8) 1.png"
+               Margin="44,36,45,10" />
+
+        <Image Grid.Row="5"
+               Grid.Column="0"
+               Source="/🦆 icon _task_.png"
+               Margin="44,36,45,10" />
+
+        <Image Grid.Row="6"
+               Grid.Column="0"
+               Source="/Untitled design (10) 1.png"
+               Margin="44,36,45,10" />
+
+        <Image Grid.Row="7"
+               Grid.Column="0"
+               Source="/Untitled design (15) 1.png"
+               Margin="44,36,45,10" />
+
+        <Image Grid.Row="8"
+               Grid.Column="0"
+               Source="/+.png"
+               Margin="44,16,45,30"
+               RenderTransformOrigin="0.618,0.577" />
+        <Image Grid.Row="0"
+               Grid.Column="1"
+               Source="/🦆 icon _star outline_.png"
+               Width="60.569978682431"
+               Margin="949,0,126,0" />
+        
+        <Image Grid.Row="0"
+               Grid.Column="1"
+               Source="/🦆 icon _clock outline_.png"
+               Width="60.569978682431"
+               Margin="853,0,222,0" />
+
+    </Grid>
+</Window>
